@@ -1,0 +1,71 @@
+body{
+	background-image: url("background-1024x426.jpg") ;width=auto;
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	height:100%;
+
+}
+
+
+#image{
+    float: center;
+	height: 200;
+    width: 160;
+    border: solid;
+    border-radius: 12px;
+    margin: 30% 2px 3px 40%;
+}
+
+#main_left{
+	text-align: left;
+	float: left;
+	height: 100%;
+	
+}
+
+#main_right{
+	margin: 0% 5% 20% 5%;
+
+}
+
+#text{
+		margin: 20px 40px 10px 100px;
+		font-size: 15px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+#top_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#bot_list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+
